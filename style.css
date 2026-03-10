@@ -1,0 +1,131 @@
+body{
+margin:0;
+font-family:Arial;
+background:linear-gradient(135deg,#1d2b64,#f8cdda);
+color:white;
+}
+
+/* login */
+
+#loginPage{
+text-align:center;
+margin-top:120px;
+}
+
+.login-img{
+width:120px;
+border-radius:50%;
+margin-bottom:20px;
+box-shadow:0 0 15px white;
+}
+
+#loginPage input{
+padding:12px;
+width:220px;
+border:none;
+border-radius:6px;
+}
+
+#loginPage button{
+padding:12px 30px;
+border:none;
+border-radius:25px;
+margin-top:15px;
+cursor:pointer;
+transition:0.3s;
+}
+
+#loginPage button:hover{
+transform:scale(1.1);
+}
+
+/* dashboard */
+
+#dashboard{
+display:none;
+}
+
+header{
+display:flex;
+justify-content:space-between;
+padding:20px;
+background:rgba(0,0,0,0.4);
+}
+
+/* profile */
+
+#profile{
+background:rgba(255,255,255,0.2);
+padding:8px 15px;
+border-radius:20px;
+}
+
+/* layout */
+
+.container{
+display:flex;
+height:90vh;
+}
+
+/* sidebar */
+
+.sidebar{
+width:220px;
+background:rgba(0,0,0,0.5);
+display:flex;
+flex-direction:column;
+padding:20px;
+gap:15px;
+}
+
+.sidebar button{
+padding:12px;
+border:none;
+border-radius:8px;
+cursor:pointer;
+background:rgba(255,255,255,0.2);
+color:white;
+transition:0.3s;
+}
+
+.sidebar button:hover{
+background:white;
+color:black;
+transform:translateX(6px);
+}
+
+/* content */
+
+.content{
+flex:1;
+padding:40px;
+}
+
+/* cards */
+
+.card{
+background:rgba(255,255,255,0.2);
+padding:25px;
+border-radius:12px;
+margin-bottom:20px;
+}
+
+.card img{
+width:200px;
+border-radius:10px;
+margin-top:10px;
+box-shadow:0 0 10px black;
+}
+
+/* Welcome card */
+
+.welcome-card{
+text-align:center;
+}
+
+.welcome-img{
+width:300px;
+border-radius:15px;
+margin-bottom:20px;
+box-shadow:0 0 20px white;
+}

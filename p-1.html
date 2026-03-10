@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Student Portfolio Portal</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- LOGIN PAGE -->
+
+<div id="loginPage">
+
+<h1>🎓 Student Portfolio Portal</h1>
+
+<img src="images/profile.png" class="login-img">
+
+<input type="text" id="username" placeholder="👤 Enter your name">
+
+<button onclick="login()">🚀 Login</button>
+
+</div>
+
+
+<!-- DASHBOARD -->
+
+<div id="dashboard">
+
+<header>
+
+<h2>📊 Student Dashboard</h2>
+
+<div id="profile"></div>
+
+</header>
+
+<div class="container">
+
+<!-- SIDEBAR -->
+
+<div class="sidebar">
+
+<button onclick="showSection('personal')">👤 Personal Info</button>
+<button onclick="showSection('hobbies')">🎨 Hobbies</button>
+<button onclick="showSection('school')">🏫 School</button>
+<button onclick="showSection('college')">🎓 College</button>
+<button onclick="showSection('certificates')">🏆 Certificates</button>
+
+</div>
+
+<!-- CONTENT -->
+
+<div class="content" id="contentArea">
+
+<!-- Welcome Screen -->
+<div class="welcome-card">
+<img src="images/welcome.jpg" alt="Welcome Image" class="welcome-img">
+<h2>✨ Welcome to your Student Portal</h2>
+<p>Select a section from the sidebar to view details</p>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
